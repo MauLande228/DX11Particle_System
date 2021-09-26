@@ -13,7 +13,6 @@ public:
 	Texture(const Texture& texture);
 	~Texture();
 
-	void ShutDown();
 	ID3D11ShaderResourceView* GetTexture();
 
 private:

@@ -18,10 +18,6 @@ Texture::~Texture()
 {
 }
 
-void Texture::ShutDown()
-{
-}
-
 ID3D11ShaderResourceView* Texture::GetTexture()
 {
 	return pTextureView.Get();
